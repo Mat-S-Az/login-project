@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*Typical devices breakpoints
+-------------------------------
+Celular: de 0px até 576px
+
+Tablet: 768px
+
+Desktop: 1280px
+
+Grandes telas: 1440px
+*/
+
+@media screen and (min-width: 768px){
+
+   div {
+    background-color: rgb(248, 248, 6);
+   }
+    
+}
