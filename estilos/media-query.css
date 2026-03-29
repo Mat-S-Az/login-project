@@ -22,7 +22,7 @@ form {
     
 }
 
-form p {
+form p, #entrar {
     background-color: rgb(81, 145, 145);
     border-radius: 10px;
     margin: 5px;
@@ -61,6 +61,8 @@ div {
     overflow: hidden;
     margin: 0%;
     box-shadow: 1px 1px 10px rgba(244, 243, 243, 0.411);
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease;
 }
 
 h1 {
@@ -74,6 +76,7 @@ main {
     align-items: center;
     padding-left: 7px;
     padding-right: 7px;
+    width: 100%;
 }
 
 
@@ -98,6 +101,8 @@ main {
 #entrar {
     color: white;
     cursor: pointer;
+    width: 96%;
+    border: none;
 }
 
 #esqueci {
@@ -121,4 +126,9 @@ main {
     background-color: rgb(51, 83, 74);
     color: white;
 
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
